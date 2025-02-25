@@ -311,6 +311,7 @@ span {
 
 .text-animator span::before{
   content: "Web Developer";
+  width: calc(100% + 18px);
   color: var(--main-color1);
   animation: words 20s infinite;
 }
